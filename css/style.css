@@ -1,0 +1,28 @@
+body {
+    background-color: azure;
+}
+h1 {
+    font-size: 80px;
+    align-items: center;
+    display: flex;
+}
+img {
+    border-radius: 10%;
+    width: 400px;
+    height: 300px;
+}
+#imgprincipal{
+    border-radius: 10%;
+    width: auto;
+    height: auto;
+}
+#button {
+    align-items: center;
+    font-size: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: rgb(50, 255, 47);
+    color:#fff;
+    border-radius: 10px;
+    border: 10px;
+    padding: 10px;
+};

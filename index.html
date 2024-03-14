@@ -3,7 +3,7 @@
  <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheets"  href="css/style.css"/>
+    <link rel="stylesheet"  href="css/style.css">
     <title>Sabores do Dorama</title>
  </head>
  <body class:="body">
@@ -11,15 +11,16 @@
      <?php include 'menu.php'; ?>  
      
      <!-- Conteúdo da Página -->
-     <div id="content">
+     <div id="content" class="container_inicio">
         <h1>Sabores do Dorama</h1>
         <p>Receitas Inspiradas na Cozinha das séries do Dorama</p>
-
-        
+     </div>
         <section class="info">
             <p><strong>Quais tipos de receitas você vai aprender?</strong></p>
             
-            <img src="images/dorama.webp" alt="Dorama" />
+            <div >
+                <img id="imgprincipal" src="images/dorama.webp" alt="Dorama">
+            </div>
             <h2><strong>Destaques:</strong></h2>    
             <ul>
                 <li>Apresentação e explicação dos ingredientes principais usados nas receitas.</li>
@@ -42,15 +43,18 @@
             <h2></strong>Explore a Magia da Cozinha Coreana:<strong></h2>
                 <p>“Sabores do Dorama” é mais do que um livro de receitas; é uma jornada gastronômica que une cultura, amor e aventura. Prepare-se para saborear a autenticidade dos pratos que transcendem as telas e se tornam parte da sua própria história.</p>
                 <p>Espero que o nosso e-book inspire os amantes  da culináriacoreana a criar suas próprias memórias culinárias!</p>
-                <img src="images/casal-dorama.jpg" alt="Couple from the Korean Drama"/>
-                <img src="images/casal2.webp" alt="More Couples From The Korean Drama"/>
-                <img src="images/casal3.webp" alt="The Last Couple From The Korean Drama"/> 
-                <img src="images/casal 4.jpg" alt="Last Couple From The Korean Drama"/>
-                <img src="images/amigos.webp" alt="Group of Friends in the Korean Drama"/>
-                <img src="images/amigos2.jpg" alt="Friends Group Eating Together in the Korean Drama"/>
-                <img src="images/familia-dorama.webp" alt="Family Members Watching and Cooking together on the Korean Drama"/>
-                
-            <a href="https://pay.kirvano.com/09e11e16-d7b8-4187-80b7-a766186496fd">Conheça agora!</a>
+                <div id="imagens1" class="container_image">
+                    <img src="images/casal-dorama.jpg" alt="Couple from the Korean Drama"/>
+                 <img src="images/casal2.webp" alt="More Couples From The Korean Drama"/>
+                 <img src="images/casal3.webp" alt="The Last Couple From The Korean Drama"/> 
+                 <img src="images/casal 4.jpg" alt="Last Couple From The Korean Drama"/>
+                 <img src="images/amigos.webp" alt="Group of Friends in the Korean Drama"/>
+                 <img src="images/amigos2.jpg" alt="Friends Group Eating Together in the Korean Drama"/>
+                 <img src="images/familia-dorama.webp" alt="Family Members Watching and Cooking together on the Korean Drama"/>
+                </div>
+            <div>
+                <a id="button" href="https://pay.kirvano.com/09e11e16-d7b8-4187-80b7-a766186496fd">Conheça agora!</a>
+            </div>
         </section>
             
  </body>
